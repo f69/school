@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter application.">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Приложение Школа.by - электронный дневник">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Школа.by">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- Open Graph data -->
+    <meta property="og:site_name" content="Электронный дневник Школа.by"/>
+    <meta property="og:site" content="https://f69.github.io/school/index.html"/>
+    <meta property="og:title" content="Электронный дневник Школа.by"/>
+    <meta property="og:description" content="Приложение Школа.by - электронный дневник"/>
+    <meta property="og:image" content="https://f69.github.io/school/assets/assets/images/screen_start.png"/>
+    <meta property="og:url" content="https://f69.github.io/school/index.html"/>
+    <meta property="og:type" content="article"/>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="product"/>
+    <meta name="twitter:site" content="@ds"/>
+    <meta name="twitter:title" content="Электронный дневник Школа.by"/>
+    <meta name="twitter:description" content="Приложение Школа.by - электронный дневник"/>
+    <meta name="twitter:creator" content="@ds"/>
+    <meta name="twitter:image" content="https://f69.github.io/school/assets/assets/images/screen_start.png"/>
 
-  <title>Школа.by</title>
-  <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#84FAB0"/>
 
-  <style>
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Школа.by">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+    <title>Школа.by</title>
+    <link rel="manifest" href="manifest.json">
+
+    <style>
     #loader {
       min-height: 95vh;
       display: flex;
@@ -25,22 +44,24 @@
       align-items: center;
       text-align: center;
     }
-  </style>
+
+    </style>
 </head>
 <body>
-  <div id="loader">
+<div id="loader">
     <img src="icons/Icon-192.png">
-  </div>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
+</div>
+<!-- This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
         navigator.serviceWorker.register('flutter_service_worker.js');
       });
     }
-  </script>
-  <script src="main.dart.js?version=3" type="application/javascript"></script>
+
+</script>
+<script src="main.dart.js?version=4" type="application/javascript"></script>
 </body>
 </html>
