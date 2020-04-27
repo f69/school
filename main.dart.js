@@ -41305,7 +41305,7 @@ $C:"$3",
 $R:3}
 X.QY.prototype={
 $3:function(a,b,c){var t=null,s=this.b,r=this.a.d,q=H.a(["\u0413\u043b\u0430\u0432\u043d\u043e\u0435","\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438","\u041e\u0442\u0437\u044b\u0432\u044b","\u0421\u043a\u0430\u0447\u0430\u0442\u044c"],u.s),p=H.a([0,1,8,9],u.t),o=H.b(b!=null?C.d.ag(b,1):b),n=s.d
-return M.ig(H.a([new D.pe(r,q,p,s,t),M.f1(M.f1(M.aP(M.dN(L.cp("v6 "+(""+J.iJ(n.a)+"x"+J.iJ(n.b))+" page: "+o,t,t,t,t,t,t,t,t,t,t,t),0.3,!1,!1),4,t,t,t,t,t,t),C.k7),C.k7)],u.p),C.av,C.aQ)},
+return M.ig(H.a([new D.pe(r,q,p,s,t),M.f1(M.f1(M.aP(M.dN(L.cp("v7 "+(""+J.iJ(n.a)+"x"+J.iJ(n.b))+" page: "+o,t,t,t,t,t,t,t,t,t,t,t),0.3,!1,!1),4,t,t,t,t,t,t),C.k7),C.k7)],u.p),C.av,C.aQ)},
 $C:"$3",
 $R:3}
 F.x_.prototype={
@@ -41562,9 +41562,9 @@ p=u.p
 o=M.ig(H.a([M.a45(k,-r,q,j),M.aP(M.en(H.a([M.aP(M.dM(M.cG(M.cF(L.cp("\u0428\u043a\u043e\u043b\u0430.\u0431\u0443",n,n,n,n,n,n,n,n,n,n,n),"Chalk"),t/(10/i)),C.j),n,20,n,n,n,n,n),M.dM(M.cG(M.cF(L.cp("\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0439 \u0434\u043d\u0435\u0432\u043d\u0438\u043a",n,n,n,n,n,n,n,n,n,n,n),m),t/(36/i)),P.aZ(204,255,255,255)),M.dM(M.cG(M.cF(L.cp("\u0434\u043b\u044f \u0440\u0435\u0441\u0443\u0440\u0441\u0430 Schools.by",n,n,n,n,n,n,n,n,n,n,n),m),t/(50/i)),P.aZ(204,255,255,255))],p),C.ax,C.j6,C.J),n,n,n,t/20,n,n,n)],p),C.t,C.mz)
 return l?M.en(H.a([M.a44(M.YP(),60),new T.cs(1,C.a0,o,n),new R.fW(n)],p),C.H,C.I,C.J):o}}
 R.uG.prototype={
-D:function(a){return new R.qL("assets/images/appstore_badge.svg","AppStore",".ipa","/app/schools_by.ipa",null,null)}}
+D:function(a){return new R.qL("assets/images/appstore_badge.svg","AppStore",".ipa","app/schools_by.ipa",null,null)}}
 R.wG.prototype={
-D:function(a){return new R.qL("assets/images/google-play-badge.svg","Google Play",".apk","/app/schools_by.apk",40,null)}}
+D:function(a){return new R.qL("assets/images/google-play-badge.svg","Google Play",".apk","app/schools_by.apk",40,null)}}
 R.qL.prototype={
 D:function(a){var t=null
 return M.VD(S.a32(this.c,this.r),new R.NM(this,a),t,t,t,t)}}
