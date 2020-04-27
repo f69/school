@@ -41305,7 +41305,7 @@ $C:"$3",
 $R:3}
 X.QY.prototype={
 $3:function(a,b,c){var t=null,s=this.b,r=this.a.d,q=H.a(["\u0413\u043b\u0430\u0432\u043d\u043e\u0435","\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438","\u041e\u0442\u0437\u044b\u0432\u044b","\u0421\u043a\u0430\u0447\u0430\u0442\u044c"],u.s),p=H.a([0,1,8,9],u.t),o=H.b(b!=null?C.d.ag(b,1):b),n=s.d
-return M.ig(H.a([new D.pe(r,q,p,s,t),M.f1(M.f1(M.aP(M.dN(L.cp("v3 "+(""+J.iJ(n.a)+"x"+J.iJ(n.b))+" x"+s.e+" page: "+o,t,t,t,t,t,t,t,t,t,t,t),0.3,!1,!1),4,t,t,t,t,t,t),C.k7),C.k7)],u.p),C.av,C.aQ)},
+return M.ig(H.a([new D.pe(r,q,p,s,t),M.f1(M.f1(M.aP(M.dN(L.cp("v5 "+(""+J.iJ(n.a)+"x"+J.iJ(n.b))+" page: "+o,t,t,t,t,t,t,t,t,t,t,t),0.3,!1,!1),4,t,t,t,t,t,t),C.k7),C.k7)],u.p),C.av,C.aQ)},
 $C:"$3",
 $R:3}
 F.x_.prototype={
