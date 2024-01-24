@@ -1,7 +1,9 @@
-<div align="center">
+<div style="text-align:center">
 
 ![GitHub Release](https://img.shields.io/github/v/release/f69/school)
 ![GitHub Release](https://img.shields.io/github/v/release/f69/school?include_prereleases&label=beta)
+
+<img src="icons/icon-192.png"></img>
 
 # Школа.by
 
